@@ -248,7 +248,7 @@ function Scanner() {
 
         const response =
           await axios.post(
-            "http://localhost:5000/api/reports/scan",
+            "https://vulnprobe-backend.onrender.com",
 
             {
               target,

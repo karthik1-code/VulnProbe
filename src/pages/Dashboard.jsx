@@ -47,7 +47,7 @@ function Dashboard() {
 
           const response =
             await axios.get(
-              "http://localhost:5000/api/reports",
+              "https://vulnprobe-backend.onrender.com",
 
               {
                 headers: {
