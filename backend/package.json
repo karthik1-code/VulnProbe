@@ -1,0 +1,38 @@
+{
+  "name": "vulnprobe-backend",
+  "version": "1.0.0",
+  "description": "VulnProbe Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "express",
+    "mongodb",
+    "jwt",
+    "vulnprobe"
+  ],
+  "author": "Karthik",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dns": "^0.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "promises": "^0.2.5",
+    "ssl-checker": "^3.0.1",
+    "tldts": "^7.0.30",
+    "whois-json": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
