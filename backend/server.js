@@ -42,7 +42,11 @@ const app = express();
   MIDDLEWARE
 */
 
-app.use(cors());
+app.use(cors({
+  origin:
+     "https://vuln-probe.vercel.app",
+     credentials: true,
+}));
 
 app.use(express.json());
 
