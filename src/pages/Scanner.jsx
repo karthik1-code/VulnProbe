@@ -2,7 +2,7 @@ import {
   useState,
 } from "react";
 
-import axios from "axios";
+import api from "../services/api";
 
 import FindingsPanel from "../components/scanner/FindingsPanel";
 
@@ -247,8 +247,8 @@ function Scanner() {
         */
 
         const response =
-          await axios.post(
-            "https://vulnprobe-backend.onrender.com",
+          await api.post(
+            "/reports/scan",
 
             {
               target,

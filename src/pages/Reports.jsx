@@ -3,7 +3,7 @@ import {
   useState,
 } from "react";
 
-import axios from "axios";
+import api from "../services/api";
 
 import ReportsSummary from "../components/reports/ReportsSummary";
 
@@ -29,28 +29,17 @@ function Reports() {
       async () => {
         try {
           /*
-            TOKEN
-          */
-
-          const token =
-            localStorage.getItem(
-              "token"
-            );
-
-          /*
             REQUEST
           */
 
           const response =
-            await axios.get(
-              "https://vulnprobe-backend.onrender.com",
-
-              {
-                headers: {
-                  Authorization: `Bearer ${token}`,
-                },
-              }
+            await api.get(
+              "/reports"
             );
+
+          /*
+            SET REPORTS
+          */
 
           setReports(
             response.data
@@ -76,7 +65,8 @@ function Reports() {
     reports.reduce(
       (acc, report) =>
         acc +
-        report.vulnerabilities,
+        (report.vulnerabilities ||
+          0),
 
       0
     );
@@ -214,15 +204,12 @@ function Reports() {
           totalReports={
             totalReports
           }
-
           totalVulnerabilities={
             totalVulnerabilities
           }
-
           criticalReports={
             criticalReports
           }
-
           loading={loading}
         />
 
@@ -231,7 +218,6 @@ function Reports() {
         <div className="mt-8">
           <ReportsTable
             reports={reports}
-
             loading={loading}
           />
         </div>

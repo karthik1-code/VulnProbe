@@ -3,7 +3,8 @@ import {
   useState,
 } from "react";
 
-import axios from "axios";
+
+import api from "../services/api";
 
 import SummaryCards from "../components/dashboard/SummaryCards";
 
@@ -46,8 +47,8 @@ function Dashboard() {
           */
 
           const response =
-            await axios.get(
-              "https://vulnprobe-backend.onrender.com",
+            await api.get(
+              "/reports",
 
               {
                 headers: {
