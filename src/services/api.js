@@ -6,7 +6,7 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL:
-    "https://your-render-backend.onrender.com/api",
+    "https://vulnprobe-backend.onrender.com/api",
 });
 
 /*
