@@ -110,6 +110,7 @@ Detects technologies such as:
 
 ---
 
+
 # ⚙️ Tech Stack
 
 ## Frontend
@@ -118,6 +119,8 @@ Detects technologies such as:
 - Framer Motion
 - Axios
 - jsPDF
+
+
 
 ## Backend
 - Node.js
@@ -133,7 +136,10 @@ Detects technologies such as:
 
 ---
 
+
+
 # 🔐 Authentication System
+
 
 - JWT-based authentication
 - bcrypt password hashing
@@ -143,6 +149,7 @@ Detects technologies such as:
 - Custom VulnProbe Domain IDs
 
 Example:
+
 
 ```bash
 username@vulnprobe.io
