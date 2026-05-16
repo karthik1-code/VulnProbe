@@ -1,16 +1,148 @@
-# React + Vite
+# VulnProbe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Advanced Cyber Intelligence & Passive Vulnerability Analysis Platform
 
-Currently, two official plugins are available:
+VulnProbe is a full-stack MERN cybersecurity platform focused on passive reconnaissance, security visibility, technology fingerprinting, and professional intelligence reporting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with modern web technologies and cyber-intelligence architecture, VulnProbe provides a futuristic dashboard experience for analyzing web targets and generating structured vulnerability reports.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Core Features
 
-## Expanding the ESLint configuration
+- 🔐 JWT Authentication System
+- 🛡️ Passive Vulnerability Reconnaissance
+- 🌐 Technology Fingerprinting
+- 📄 Professional PDF Intelligence Reports
+- ⚡ Real-Time Dashboard Experience
+- ☁️ Cloud Deployment Architecture
+- 📊 Threat Severity Classification
+- 🔍 Security Header Analysis
+- 🍪 Cookie Security Inspection
+- 🔗 Redirect & Infrastructure Analysis
+- 📁 Persistent Scan Report Storage
+- 🎨 Futuristic Cybersecurity UI/UX
+- 🏠 Modern Cybersecurity Landing Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 📸 Platform Preview
+
+## 🏠 Landing Page
+
+![Home Page](./screenshots/home.png)
+
+---
+
+## 🔐 Authentication Interface
+
+![Login Page](./screenshots/Auth.png)
+
+---
+
+## ⚡ Cyber Intelligence Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## 🔍 Scanner Intelligence Engine
+
+![Scanner](./screenshots/scanner.png)
+
+---
+
+## 📄 Vulnerability Intelligence Report
+
+![Report](./screenshots/report.png)
+
+---
+
+## 🧾 PDF Export System
+
+![PDF Report](./screenshots/sample.png)
+
+---
+
+# 🔍 Scanner Engine
+
+VulnProbe uses a modular passive reconnaissance engine designed for security visibility and infrastructure intelligence.
+
+## Scanner Capabilities
+
+### ✅ SSL/TLS Analysis
+- HTTPS validation
+- SSL posture inspection
+- Transport security visibility
+
+### ✅ Security Header Inspection
+Checks important security headers:
+- Content-Security-Policy
+- X-Frame-Options
+- X-Content-Type-Options
+- Referrer-Policy
+- Strict-Transport-Security
+
+### ✅ Technology Fingerprinting
+Detects technologies such as:
+- React
+- Express.js
+- Node.js
+- Nginx
+- Apache
+- Cloudflare
+
+### ✅ Cookie Security Analysis
+- Secure flag detection
+- HttpOnly inspection
+
+### ✅ Reconnaissance Detection
+- robots.txt analysis
+- sitemap.xml inspection
+- Redirect analysis
+- Infrastructure visibility
+
+### ✅ Threat Intelligence
+- Risk score generation
+- Severity classification
+- Structured findings
+- Vulnerability categorization
+
+---
+
+# ⚙️ Tech Stack
+
+## Frontend
+- React.js
+- Tailwind CSS
+- Framer Motion
+- Axios
+- jsPDF
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- JWT
+- bcryptjs
+
+## Deployment
+- Vercel
+- Render
+- MongoDB Atlas
+
+---
+
+# 🔐 Authentication System
+
+- JWT-based authentication
+- bcrypt password hashing
+- Persistent login sessions
+- Protected API routes
+- Strong password enforcement
+- Custom VulnProbe Domain IDs
+
+Example:
+
+```bash
+username@vulnprobe.io
